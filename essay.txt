@@ -1,0 +1,48 @@
+Advanced Server Side Development Project Report
+Title: Secure API Middleware Service for RestCountries
+Student Name and No.: Simranjit Kaur Gill (W19314851)
+Course: BSc Computer Science
+Module: 6COSC022W Advanced Server Side Development 
+Date: 17 April 2025
+
+
+Introduction
+I developed a secure API middleware service using JavaScript, Node.js, Express, and SQLite. The goal was to allow registered users to safely access data from the RestCountries.com API through a protected endpoint. This report summarizes the steps I took throughout the project.
+Project Explanation
+Project Setup
+I initialized a Node.js project and installed essential dependencies like Express, SQLite3, and middleware libraries. I created a server with routing, middleware configuration, and a connection to a local SQLite database.
+
+Figure 1: Folder structure and package.json
+User Authentication
+I implemented secure user registration and login using Express sessions. Passwords were hashed using the bcrypt library to ensure user credentials are stored securely.
+
+Figure 2: Registration using RESTer
+
+Figure 3: Login request using RESTer
+Session Management
+Once a user logs in, a session is created. I used Express-session to manage user sessions and added logic to protect routes so only logged-in users can access certain parts of the API.
+
+Figure 4: session middleware code
+API Key Generation and Validation
+Each authenticated user can request an API key. The key is a unique identifier stored in the database. I created a middleware function that checks the API key for every request to the protected endpoint.
+
+
+Figure 5: API keys saved in the database
+Secure Country Endpoint
+I created a protected endpoint /country/:name that fetches data from the RestCountries API. This endpoint can only be accessed if a valid API key is provided in the request header. This checks that only authenticated and authorized users can get country data.
+
+Figure 6: /country/:name request via RESTer with the API key
+Database Integration
+I used SQLite to store user information and API keys. I created tables for users and API keys and wrote SQL queries to insert and retrieve data as needed.
+
+Figure 7: SQLite database table
+Testing
+ I used RESTer to test all endpoints:
+/register to sign up new users
+/login to sign in
+/logout to end sessions
+/apikey to generate keys
+/country/:name to retrieve country data securely
+All routes were successfully tested and verified.
+Conclusion
+This project helped me understand key concepts in server-side development, such as secure authentication, session handling, API protection, and database interaction. I learned how to create a middleware service that acts as a secure gateway to an external API.
