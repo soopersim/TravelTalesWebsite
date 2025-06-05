@@ -51,12 +51,19 @@ TravelTales is a full-stack tourism blogging platform built with **Node.js**, **
 ## 🗂 Project Structure
 AdvancedServerSideDevelopment/
 ├── DAOs/ # DB access (users, posts, likes, comments, follows, API keys)
+
 ├── Databases/SQLCon.js # SQLite connection
+
 ├── Services/ # Business logic per domain
+
 ├── middleware/ # Session & API key guards
+
 ├── public/ # Frontend HTML/CSS/JS
+
 │ ├── home.html
+
 │ ├── login.html
+
 │ ├── register.html
 │ ├── profile.html
 │ ├── all-posts.html
