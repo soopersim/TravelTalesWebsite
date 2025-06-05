@@ -48,6 +48,28 @@ TravelTales is a full-stack tourism blogging platform built with **Node.js**, **
 
 ---
 
+## Screenshots
+
+### Login Page
+
+<img width="1367" alt="Screenshot 2025-06-05 at 4 08 56 AM" src="https://github.com/user-attachments/assets/b76b056a-2944-463c-a35f-f878b5210b34" />
+
+### Home Page
+
+<img width="1372" alt="Screenshot 2025-06-05 at 4 09 24 AM" src="https://github.com/user-attachments/assets/ca7f7f0b-bb09-4017-837e-8c6aa5763135" />
+
+<img width="1366" alt="Screenshot 2025-06-05 at 4 09 36 AM" src="https://github.com/user-attachments/assets/87a2e56c-a45c-480e-97a0-8952d7bfd146" />
+
+<img width="1366" alt="Screenshot 2025-06-05 at 4 09 51 AM" src="https://github.com/user-attachments/assets/48f54169-7004-4812-9626-15f8b34f865e" />
+
+### Profile Page
+
+<img width="1368" alt="Screenshot 2025-06-05 at 4 10 18 AM" src="https://github.com/user-attachments/assets/a60b3ac0-5248-4c5a-8600-a8478636057c" />
+
+<img width="1356" alt="Screenshot 2025-06-05 at 4 10 29 AM" src="https://github.com/user-attachments/assets/ce4e5ee5-c818-4cae-9e4f-adc2795f2819" />
+
+---
+
 ## 🗂 Project Structure
 AdvancedServerSideDevelopment/
 ├── DAOs/ # DB access (users, posts, likes, comments, follows, API keys)
@@ -95,25 +117,7 @@ node index.js
 docker build -t traveltales-app .
 docker run -d -p 5002:5002 traveltales-app
 
-## Screenshots
 
-### Login Page
-
-<img width="1367" alt="Screenshot 2025-06-05 at 4 08 56 AM" src="https://github.com/user-attachments/assets/b76b056a-2944-463c-a35f-f878b5210b34" />
-
-### Home Page
-
-<img width="1372" alt="Screenshot 2025-06-05 at 4 09 24 AM" src="https://github.com/user-attachments/assets/ca7f7f0b-bb09-4017-837e-8c6aa5763135" />
-
-<img width="1366" alt="Screenshot 2025-06-05 at 4 09 36 AM" src="https://github.com/user-attachments/assets/87a2e56c-a45c-480e-97a0-8952d7bfd146" />
-
-<img width="1366" alt="Screenshot 2025-06-05 at 4 09 51 AM" src="https://github.com/user-attachments/assets/48f54169-7004-4812-9626-15f8b34f865e" />
-
-### Profile Page
-
-<img width="1368" alt="Screenshot 2025-06-05 at 4 10 18 AM" src="https://github.com/user-attachments/assets/a60b3ac0-5248-4c5a-8600-a8478636057c" />
-
-<img width="1356" alt="Screenshot 2025-06-05 at 4 10 29 AM" src="https://github.com/user-attachments/assets/ce4e5ee5-c818-4cae-9e4f-adc2795f2819" />
 
 
 
