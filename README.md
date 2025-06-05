@@ -1,7 +1,6 @@
 # TravelTales – Advanced Server-Side Development CW2
 
-## Developed by: Simranjit Kaur Gill (W19314851)  
-University of Westminster – Advanced Server-Side Development Coursework – 2025
+## Developed by: Simranjit Kaur Gill 
 
 ---
 
