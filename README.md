@@ -65,12 +65,19 @@ AdvancedServerSideDevelopment/
 │ ├── login.html
 
 │ ├── register.html
+
 │ ├── profile.html
+
 │ ├── all-posts.html
+
 │ └── my-feed.html
+
 ├── Dockerfile
+
 ├── .dockerignore
+
 ├── index.js # Express app entrypoint
+
 └── README.md
 
 
